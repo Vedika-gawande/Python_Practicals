@@ -1,0 +1,5 @@
+print("Add : ", a+b)
+print("Sub : ", a-b)
+print("Mul : ", a*b)
+print("Rem : ", a%b)
+print("Quo : ", a/b)
