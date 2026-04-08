@@ -1,4 +1,4 @@
-# built in exeption
+# # built in exeption
 # try:
 #     num1=(int(input("Enter Number 1 : ")))
 #     num2=(int(input("Enter Number 2 : ")))
@@ -12,3 +12,16 @@
 #     print("Division successful")
 # finally:
 #     print("Program finished")
+
+
+
+
+
+# user defined exception
+try:
+    age=(int(input("Enter age : ")))
+    if(age<18):
+        raise ValueError("You are not eligible for voting ")
+    print("Eligible for voting")
+except ValueError as e:
+    print("Error : ", e)

@@ -1,14 +1,14 @@
 # If Statement
-num=10
-if num % 2 == 0:
-    print (f"{num} is Even")
+# num=10
+# if num % 2 == 0:
+#     print (f"{num} is Even")
 
 # # If else Statement
-num=11
-if num % 2 == 0:
-    print (f"{num} is Even")
-else:
-    print(f"{num} is Odd")
+# num=11
+# if num % 2 == 0:
+#     print (f"{num} is Even")
+# else:
+#     print(f"{num} is Odd")
 
 # Nested If Else
 age = 15
@@ -20,7 +20,6 @@ if age>= 18:
         print("Not Eligible for Voting")
 else:
     print("Underage")
-
 
 # Else If Ladder
 marks = 00
@@ -34,3 +33,8 @@ elif marks >=30:
     print("Grade D")
 else:
     print("Fail")
+
+
+
+
+    

@@ -19,3 +19,13 @@ print(max(numbers))
 print(min(numbers))
 print(sum(numbers))
 print(abs(-17))
+
+
+
+
+
+
+
+
+
+
